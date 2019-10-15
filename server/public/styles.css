@@ -1,0 +1,65 @@
+html {
+  font-size: 14px;
+}
+
+.brand {
+  font-family: 'Oleo Script Swash Caps';
+}
+
+.brand-sm {
+  font-size: 1.75rem;
+}
+
+.brand-lg {
+  font-size: 3rem;
+}
+
+.photo-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.nav-icon,
+.photo-control {
+  font-size: 1.5rem;
+}
+
+.comment {
+  word-break: break-word;
+}
+
+.loading-spinner {
+  animation: spinner 1s infinite;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.feed {
+  border-bottom: 1px solid #dee2e6;
+}
+
+@media (min-width: 576px) {
+  .photo {
+    width: 542px;
+    margin: 0 auto 1rem;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+  }
+  .feed {
+    border-bottom: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .photo {
+    width: 734px;
+    margin: 0 auto 3.75rem;
+  }
+}

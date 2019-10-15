@@ -1,0 +1,6 @@
+server/public/main.js*
+server/sessions/*
+node_modules/
+.DS_Store
+!.gitkeep
+.env
